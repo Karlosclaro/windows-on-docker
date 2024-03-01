@@ -9,7 +9,7 @@ ports:
 - 8006:8006
 - 3389:3389/tcp
 - 3389:3389/udp
-stop_grace_period: 2m
+stop_grace_period: 3m
 restart: on-failure
 environment:
 VERSION: "win10"
