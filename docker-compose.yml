@@ -1,6 +1,6 @@
 version: "3"
 environment:
-  VERSION: "win81"
+  VERSION: "win10"
 services:
   windows:
     image: dockurr/windows
