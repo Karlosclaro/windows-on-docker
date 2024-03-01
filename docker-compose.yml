@@ -6,7 +6,7 @@ services:
     image: dockurr/windows
     container_name: windows
     devices:
-      - /dev/kvm
+      KVM: "N"  # Disable KVM acceleration
     cap_add:
       - NET_ADMIN
     ports:
