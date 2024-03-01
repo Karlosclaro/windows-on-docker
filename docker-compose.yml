@@ -1,4 +1,6 @@
 version: "3"
+environment:
+  VERSION: "win81"
 services:
   windows:
     image: dockurr/windows
@@ -13,6 +15,3 @@ services:
       - 3389:3389/udp
     stop_grace_period: 2m
     restart: on-failure
-  
-environment:
-  VERSION: "win81"
