@@ -6,7 +6,6 @@ services:
     environment:
       KVM: "N"  # Disable KVM acceleration
       VERSION: "win7"
-
       DISK_SIZE: "16G"
     cap_add:
       - NET_ADMIN
