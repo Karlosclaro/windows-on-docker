@@ -12,4 +12,4 @@ ports:
 stop_grace_period: 3m
 restart: on-failure
 environment:
-VERSION: "win10"
+VERSION: "win81"
